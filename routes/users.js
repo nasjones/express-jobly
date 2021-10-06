@@ -129,7 +129,7 @@ router.delete(
 	}
 );
 
-/** DELETE /[username]  =>  { deleted: username }
+/** Post /[username]/jobs/:jobId  =>  { applied: jobId }
  *
  * Authorization required: admin or targeted user
  **/
